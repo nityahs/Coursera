@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color:azure;
+            align-items: center;
+            justify-content: center;
+        }
+        section{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section li{
+            text-decoration: none;
+            font: 10px;
+            display:block;
+            width:200px;
+            color:blanchedalmond;
+            background-color: #18023d;
+            text-align: center;
+            margin: 5px 0;            /* Adds spacing between list items */
+            padding: 10px 0; 
+            cursor:crosshair
+        }
+        li:hover {
+            background-color: white;
+            color: black;             /* Optional: Changes text color on hover */
+        }
+        li:active{
+            background-color: orange;
+        }
+        li:nth-child(even){
+            background-color: rgb(48, 2, 41);
+        }
+        li:nth-child(even):hover{
+            background-color: rgb(247, 208, 151);
+            color:#18023d
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    </section>
+</body>
+</html>
